@@ -25,5 +25,10 @@ div,p {
 }
 
 .title{
-    font-size: 40px;
+    font-size: 30px;
+}
+
+.content{
+    line-height: 23px;
+    color: hsla(0, 0%, 100%, 0.75);
 }
