@@ -20,8 +20,12 @@ div,p {
 }
 
 .left-side{
+    padding-top: 7vh;
+    padding-left:  8vh;
+    
     width: 50%;
-    padding: 7vh 8vh;
+    height:auto;
+    float:left;
 }
 
 .title{
@@ -31,4 +35,42 @@ div,p {
 .content{
     line-height: 23px;
     color: hsla(0, 0%, 100%, 0.75);
+}
+
+.flex-head{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+
+.flex{
+    margin-left: 4vw;
+    margin-bottom: 20px;
+}
+
+.head{
+    font-size: 25px;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+    margin: 0;
+}
+
+.bottom{
+    margin-top: 6px;
+    color: hsla(0, 0%, 100%, 0.6);;
+}
+
+.right-side{
+    
+    width: 20%;
+    height: auto;
+    position: relative;
+    bottom : 0;
+    right: 0;
+    float:right;
+}
+
+.photo{
+    overflow: none;
 }
